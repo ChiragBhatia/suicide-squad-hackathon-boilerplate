@@ -17,6 +17,11 @@ body {
 .bold {
 	font-family: 'Montserrat Bold';
 }
+.component-heading{
+	font-family: Montserrat;
+	font-size: 32px;
+	font-weight: 600;
+}
 .exodus {
 	font-family: 'ExodusDemo';
 }

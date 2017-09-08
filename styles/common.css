@@ -58,3 +58,7 @@ h1 {
 h6 {
 	font-size: 20px;
 }
+body .no-gutter {
+	padding-left: 0;
+	padding-right: 0;
+}

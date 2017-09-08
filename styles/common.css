@@ -42,7 +42,7 @@ button {
 	border: none;
 }
 .green-button-inverted, .green-button:hover {
-	background-color: #4a4a4a;
+	background-color: transparent;
 	font-size: 1rem;
 	color: #2effb5;
 	border: 1px solid #2effb5;

@@ -1,0 +1,20 @@
+.header-wrapper{
+  width: 100%;
+  height: 425px;
+  background-color: #5d5c5e;
+}
+.inline{
+	display: inline-block;
+}
+.center{
+	text-align: center;
+}
+.header-content{
+	color: white;
+}
+.sign-up-container{
+	text-align: right;
+}
+.navigation-wrapper{
+	padding-top: 45px;
+}

@@ -1,7 +1,6 @@
 function CarouselContentController() {
     var self=this;
     self.init = function(){
-        console.log("Init");
         $('#myCarousel').carousel({
             interval: false
         });

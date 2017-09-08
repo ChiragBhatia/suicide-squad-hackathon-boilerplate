@@ -1,10 +1,10 @@
 function MainContentController() {
   this.panels=
       [
-        {"name":"Lorem ipsum","title":"fe developer"},
-        {"name":"Lorem ipsum","title":"visual developer"},
-        {"name":"Lorem ipsum","title":"visual developer"},
-        {"name":"Lorem ipsum","title":"fe developer"}
+        {"imageUrl":"./images/panel_image1.png","name":"Lorem ipsum","title":"fe developer"},
+        {"imageUrl":"./images/panel_image2.jpg","name":"Lorem ipsum","title":"visual developer"},
+        {"imageUrl":"./images/panel_image3.png","name":"Lorem ipsum","title":"visual developer"},
+        {"imageUrl":"./images/panel_image4.png","name":"Lorem ipsum","title":"fe developer"}
       ];
 
 }

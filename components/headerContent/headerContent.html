@@ -5,7 +5,7 @@
 			<img src="./images/group.svg">
 		</div>
 		<ul class="nav nav-pills col-sm-8 col-md-6 col-lg-5">
-		  <li role="presentation" ng-repeat="item in headCtrl.navItems" ng-click="headCtrl.isActive(item);" ng-class="{'active':headCtrl.activeItem == item}"><a href="{{item.link}}">{{item.text}}</a></li>
+		  <li role="presentation" ng-repeat="item in headCtrl.navItems" ng-click="headCtrl.isActive(item);" ng-class="{'active':headCtrl.activeItem == item.text}"><a href="{{item.link}}">{{item.text}}</a></li>
 		</ul>
 		<div class="sign-up-container col-sm-2 col-md-2 col-lg-2">
 			<button class="green-button-inverted">Sign Up</button>

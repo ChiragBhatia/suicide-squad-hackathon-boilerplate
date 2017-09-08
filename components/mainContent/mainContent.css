@@ -1,0 +1,25 @@
+.panel-wrapper{
+    background-color: white;
+    min-height: 529px;
+}
+.panel-wrapper .panel-heading{
+    text-align: center;
+    color: #757575;
+    padding-top: 53px;
+    padding-bottom: 8px;
+}
+.panel-wrapper .panel-desc{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    color: #757575;
+}
+.panel-wrapper .line-separator{
+    height: 2px;
+    border: solid 1px #dddddd;
+}
+.panel-wrapper .panel-judge-image{
+    height: 80px;
+    width: 80px;
+    padding: 5px 5px;
+}

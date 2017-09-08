@@ -52,7 +52,6 @@ button:focus {
 }
 .green-button-inverted, .green-button:hover {
 	background-color: transparent;
-	font-size: 1rem;
 	color: #2effb5;
 	border: 1px solid #2effb5;
 }

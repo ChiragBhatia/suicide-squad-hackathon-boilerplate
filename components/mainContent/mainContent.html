@@ -1,1 +1,15 @@
-<div>Main Content</div>
+<link rel="stylesheet" type="text/css" href="./components/mainContent/mainContent.css"/>
+<link rel="stylesheet" type="text/css" href=".styles/common.css"/>
+<div class="panel-wrapper">
+  <div class="col-sm-12 panel-heading component-heading">Panel of Judges</div>
+  <div class="col-sm-12 panel-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, autem.</div>
+  <div class="col-sm-12">
+    <div ng-repeat="panelValues in mainctrl.panels" class="col-sm-3">
+      <img class="col-sm-4 circular"/>
+      <div class="col-sm-8">
+        <div class="col-sm-12">{{panelValues.name}}</div>
+        <div class="col-sm-12">{{panelValues.title}}</div>
+      </div>
+    </div>
+  </div>
+</div>

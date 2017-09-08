@@ -32,7 +32,7 @@ body {
 }
 button {
 	font-family: 'Montserrat Bold';
-	font-size: 1rem;
+	font-size: 16px;
 	padding: 14px 28px;
 	border-radius: 100px;
 	text-transform: uppercase;

@@ -1,1 +1,18 @@
-<div>Footer Content</div>
+<link rel="stylesheet" type="text/css" href="./components/footerContent/footerContent.css">
+<div class="footer-wrapper col-sm-12">
+	<div class="footer-content-wrapper col-sm-12">
+		<div class="footer-content col-sm-3" ng-repeat='line in ctrl.lines'>
+			<h6>{{line.text1}}</h6>
+			<p>{{line.text2}}</p>
+		</div>
+	</div>
+	<div class="lower-footer col-sm-12">
+		<p class="copy-right-text col-sm-6">Copyright©2017 Deloitte Development LLC.ALL rights reserved</p>
+		<div class="social-media-links col-sm-6">
+			<img class="social-media-icons" src="./images/facebook.png" alt="Facebook">
+			<img class="social-media-icons" src="./images/instagram.png" alt="Instagram">
+			<img class="social-media-icons" src="./images/message.png" alt="Message">
+			<img class="social-media-icons" src="./images/twitter.png" alt="Twiter">
+		</div>
+	</div>
+</div>

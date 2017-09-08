@@ -1,0 +1,35 @@
+.footer-wrapper{
+	padding:53px 40px 32px 41px;
+	background-color: #f9f9f9;
+	overflow: auto;
+}
+.footer-content-wrapper {
+	padding-bottom: 55px;
+	border-bottom: solid 2px #dddddd; 
+	height:auto;
+}
+.footer-content {
+	text-align: center;
+}
+.social-media-icons {
+	margin-right: 11px;
+	height:30px;
+	width:31px;
+}
+.copy-right-text {
+	text-align: left;
+	font-size: 10px;
+	  font-weight: 300;
+	  line-height: 1.4;
+	  text-align: left;
+	  color: #3f3f3f;
+	  margin-bottom: 0;
+}
+.social-media-links {
+	text-align: right;
+}
+.lower-footer{
+	padding-top: 18px;
+	display: flex;
+	align-items: center;
+}

@@ -21,18 +21,19 @@ body {
 	font-family: 'ExodusDemo';
 }
 button {
+	font-family: 'Montserrat Bold';
 	font-size: 1rem;
 	padding: 14px 28px;
 	border-radius: 100px;
 	text-transform: uppercase;
-	font-weight: 600;
+	transition: 1s all;
 }
-.green-button {
+.green-button, .green-button-inverted:hover {
 	background-color: #2effb5;
 	color: #4a4a4a;
 	border: none;
 }
-.green-button-inverted {
+.green-button-inverted, .green-button:hover {
 	background-color: #4a4a4a;
 	font-size: 1rem;
 	color: #2effb5;

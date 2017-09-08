@@ -50,7 +50,7 @@ button:focus {
 	background-color: transparent;
 	font-size: 1rem;
 	color: #2effb5;
-	border: 1px solid transparent;
+	border: 1px solid #2effb5;
 }
 h1 {
 	font-family: 'ExodusDemo';

@@ -18,3 +18,8 @@
     height: 2px;
     border: solid 1px #dddddd;
 }
+.panel-wrapper .panel-judge-image{
+    height: 80px;
+    width: 80px;
+    padding: 5px 5px;
+}

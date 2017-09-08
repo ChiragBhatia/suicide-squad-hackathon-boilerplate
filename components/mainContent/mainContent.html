@@ -4,12 +4,16 @@
   <div class="col-sm-12 panel-heading component-heading">Panel of Judges</div>
   <div class="col-sm-12 panel-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, autem.</div>
   <div class="col-sm-12">
-    <div ng-repeat="panelValues in mainctrl.panels" class="col-sm-3">
-      <img class="col-sm-4 circular"/>
+    <div ng-repeat="panelValues in mainctrl.panels" class="col-sm-3"><img ng-src="{{panelValues.imageUrl}}" class="col-sm-4 circular panel-judge-image"/>
       <div class="col-sm-8">
         <div class="col-sm-12">{{panelValues.name}}</div>
         <div class="col-sm-12">{{panelValues.title}}</div>
       </div>
     </div>
+  </div>
+  <div class="col-sm-12 line-separator"></div>
+  <div class="col-sm-12 description-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quam consectetur quibusdam magni minus aut modi aliquid.</div>
+  <div class="col-sm-12">
+    <button class="green-button">CLICK HERE</button>
   </div>
 </div>

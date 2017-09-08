@@ -1,21 +1,21 @@
 function FooterContentController($scope) {
 	var self=this;
-    this.lines = [
+    this.data = [
 	    {
-	        text1: 'Lorem ipsum',
-	        text2: 'Lorem ipsum dolor sit Nesciunt itaque, alias possimus'
+	    heading: 'Lorem ipsum',
+	    description: 'Lorem ipsum dolor sit Nesciunt itaque, alias possimus'
 	    },
 	    {
-	      text1: 'Lorem ipsum',
-	      text2: 'Lorem ipsum dolor sit Nesciunt itaque, alias possimus'  
+	    heading: 'Lorem ipsum',
+	    description: 'Lorem ipsum dolor sit Nesciunt itaque, alias possimus'  
 	    },
-	     {
-	      text1: 'Lorem ipsum',
-	      text2: 'Lorem ipsum dolor sit Nesciunt itaque, alias possimus'  
+	    {
+	    heading: 'Lorem ipsum',
+	    description: 'Lorem ipsum dolor sit Nesciunt itaque, alias possimus'  
 	    },
-	     {
-	      text1: 'Lorem ipsum',
-	      text2: 'Lorem ipsum dolor sit Nesciunt itaque, alias possimus'  
+	    {
+	    heading: 'Lorem ipsum',
+	    description: 'Lorem ipsum dolor sit Nesciunt itaque, alias possimus'  
 	    },
 
     ];

@@ -1,5 +1,9 @@
 @font-face {
 	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Light.otf');
+}
+@font-face {
+	font-family: 'Montserrat Regular';
 	src: url('../fonts/Montserrat-Regular.otf');
 }
 @font-face {
@@ -57,4 +61,9 @@ h1 {
 }
 h6 {
 	font-size: 20px;
+	font-family: 'Montserrat Regular';
+}
+body .no-gutter {
+	padding-left: 0;
+	padding-right: 0;
 }

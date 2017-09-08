@@ -1,10 +1,10 @@
 <link rel="stylesheet" type="text/css" href="./components/headerContent/headerContent.css">
 <div class="header-wrapper container-fluid">
 	<div class="navigation-wrapper row">
-		<div class="logo col-sm-5">
+		<div class="logo col-sm-6">
 			<img src="./images/group.svg">
 		</div>
-		<ul class="nav nav-pills col-sm-5">
+		<ul class="nav nav-pills col-sm-4">
 		  <li role="presentation" ng-repeat="item in headCtrl.navItems" ng-click="headCtrl.isActive(item);" ng-class="{'active':headCtrl.activeItem == item}"><a href="./about-us.html">{{item}}</a></li>
 		</ul>
 		<div class="sign-up-container col-sm-2">

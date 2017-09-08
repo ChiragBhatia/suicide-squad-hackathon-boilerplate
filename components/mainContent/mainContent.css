@@ -7,12 +7,24 @@
     color: #757575;
     padding-top: 53px;
     padding-bottom: 8px;
+    letter-spacing: 4px;
+}
+.panel-wrapper .panel-name{
+    font-size: 20px;
+  letter-spacing: 2.5px;
+}
+.panel-wrapper .panel-title{
+    font-size: 14px;
+  font-weight: 300;
+  line-height: 1.57;
+  letter-spacing: 1.8px;
 }
 .panel-wrapper .panel-desc{
     text-align: center;
     font-size: 14px;
     font-weight: 300;
     color: #757575;
+    letter-spacing: 1.8px;
 }
 .panel-wrapper .line-separator{
     height: 2px;
@@ -22,4 +34,30 @@
     height: 80px;
     width: 80px;
     padding: 5px 5px;
+}
+.panel-wrapper .panel-values-container{
+    padding: 55px 0 54px 24px;
+    border-bottom: solid 2px #dddddd;
+}
+.panel-wrapper .description-text{
+    padding: 52px 0 36px 0;
+}
+.panel-wrapper .h5{
+    width: 40%;
+    margin: 0 auto;
+    font-size: 14px;
+  font-weight: 300;
+  line-height: 1.57;
+  letter-spacing: 1.8px;
+}
+.panel-wrapper .panel-click{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.panel-wrapper .button-section{
+    padding-bottom: 46.5px;
+}
+.panel-wrapper .values-container{
+    padding: 12px 0 0 0;
 }

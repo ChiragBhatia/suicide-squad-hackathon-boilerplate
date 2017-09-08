@@ -6,19 +6,19 @@ function HeaderContentController($location) {
 	self.navItems = [
 						{
 							text:"Home",
-						 	link:""
+						 	link:"#"
 						},
 						{
 							text:"About Us",
-							link:""
+							link:"./about-us.html"
 						},
 						{
 							text:"Discover",
-							link:""
+							link:"#"
 						},
 						{
 							text:"FAQ",
-							link:""
+							link:"#"
 						}
 					];
 

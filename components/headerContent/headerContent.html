@@ -1,20 +1,19 @@
 <link rel="stylesheet" type="text/css" href="./components/headerContent/headerContent.css">
-<div class="header-wrapper container-fluid">
-	<div class="navigation-wrapper row">
-		<div class="logo col-sm-5">
+<header class="header-wrapper container-fluid">
+	<section class="navigation-wrapper row">
+		<div class="logo col-sm-2 col-md-4 col-lg-5">
 			<img src="./images/group.svg">
 		</div>
-		<ul class="nav nav-pills col-sm-5">
-		  <li role="presentation" ng-repeat="item in headCtrl.navItems" ng-click="headCtrl.isActive(item);" ng-class="{'active':headCtrl.activeItem == item}"><a href="./about-us.html">{{item}}</a></li>
+		<ul class="nav nav-pills col-sm-8 col-md-6 col-lg-5">
+		  <li role="presentation" ng-repeat="item in headCtrl.navItems" ng-click="headCtrl.isActive(item);" ng-class="{'active':headCtrl.activeItem == item}"><a href="./about-us.html">{{item.text}}</a></li>
 		</ul>
-		<div class="sign-up-container col-sm-2">
+		<div class="sign-up-container col-sm-2 col-md-2 col-lg-2">
 			<button class="green-button-inverted">Sign Up</button>
 		</div>
-		
-	</div>
-	<div class="header-content center">
+	</section>
+	<section class="header-content center">
 		<h1>HI, This is Hackathon</h1>
 		<h5>We know you have got talent and we want you to show it! </h5>
 		<button class="green-button" ng-click="headCtrl.clicked();">Click Here!</button>
-	</div>
-</div>
+	</section>
+</header>

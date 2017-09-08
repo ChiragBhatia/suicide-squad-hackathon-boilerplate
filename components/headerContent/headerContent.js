@@ -1,9 +1,26 @@
-function HeaderContentController() {
+function HeaderContentController($location) {
 	var self= this;
 	self.activeItem = 'Home'; //Current active Nav
 
 	//navItems array
-	self.navItems = ["Home","About Us","Discover","FAQ"];
+	self.navItems = [
+						{
+							text:"Home",
+						 	link:""
+						},
+						{
+							text:"About Us",
+							link:""
+						},
+						{
+							text:"Discover",
+							link:""
+						},
+						{
+							text:"FAQ",
+							link:""
+						}
+					];
 
 	//function to select current active nav
 	self.isActive = function(item){

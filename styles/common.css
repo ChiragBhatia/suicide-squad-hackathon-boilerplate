@@ -30,10 +30,14 @@ button {
 .green-button {
 	background-color: #2effb5;
 	color: #4a4a4a;
-	border: 1px solid #2effb5;
+	border: none;
 }
 .green-button-inverted {
+	background-color: #4a4a4a;
 	font-size: 1rem;
-	padding: #4a4a4a;
+	color: #2effb5;
 	border: 1px solid #2effb5;
+}
+h1 {
+	font-family: 'ExodusDemo';
 }

@@ -39,14 +39,14 @@
     padding: 5px 5px;
 }
 .panel-wrapper .panel-values-container{
-    padding: 55px 0 54px 24px;
+    padding: 55px 0;
     border-bottom: solid 2px #dddddd;
-    width: 97%;
+    width: 94%;
 }
 .panel-wrapper .description-text{
     padding: 52px 0 36px 0;
 }
-.panel-wrapper .h5{
+.panel-wrapper h5{
     width: 40%;
     margin: 0 auto;
     font-size: 14px;

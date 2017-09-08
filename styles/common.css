@@ -38,6 +38,7 @@ button:focus {
 }
 .circular {
 	border-radius: 50%;
+	border: solid 1px #dddddd;
 }
 .green-button, .green-button-inverted:hover {
 	background-color: #2effb5;

@@ -3,18 +3,22 @@
 	background-color: #f9f9f9;
 	overflow: auto;
 }
-.footer-content-wrapper {
+.upper-footer {
 	padding-bottom: 55px;
 	border-bottom: solid 2px #dddddd; 
 	height:auto;
 }
 .footer-content {
-	text-align: center;
+	text-align: left;
+	padding-right: 12%;
 }
 .social-media-icons {
 	margin-right: 11px;
 	height:30px;
 	width:31px;
+}
+.social-media-icons:last-child {
+	margin-right: 0;
 }
 .copy-right-text {
 	text-align: left;
@@ -25,8 +29,10 @@
 	  color: #3f3f3f;
 	  margin-bottom: 0;
 }
+
 .social-media-links {
 	text-align: right;
+	cursor: pointer;
 }
 .lower-footer{
 	padding-top: 18px;

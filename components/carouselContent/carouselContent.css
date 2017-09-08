@@ -1,10 +1,28 @@
 .carousel-content {
     background: #f2f2f2;
 }
+.carousel-content h2 {
+    padding-top: 50px;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    color: #757575;
+    text-align: center;
+}
+
+.carousel-content p {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1.8px;
+    color: #757575;
+    text-align: center;
+}
 .carousel {
     width: 100%;
-    height: 23.125em;
-    padding: 3.125em 5.625em 3.75em;
+    padding: 50px 90px 60px;
+}
+.carousel-inner {
+    height: 370px;
 }
 .carousel .item {
     height: 100%;
@@ -43,6 +61,16 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);  
+}
+.inner-slide .header {
+    font-size: 24px;
+    letter-spacing: 3px;
+    color: #757575;
+    margin: 0 40px;
+}
+.inner-slide p {
+    line-height: 1.57;
+    margin: 28px 40px 0;
 }
 /* Reposition the controls slightly */
 .carousel-control.left, 

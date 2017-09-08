@@ -11,10 +11,29 @@
 }
 .header-content{
 	color: white;
+	padding-top: 100px;
+}
+.header-content h5{
+	margin-bottom: 37px;
 }
 .sign-up-container{
 	text-align: right;
 }
 .navigation-wrapper{
 	padding-top: 45px;
+}
+.navigation-wrapper .nav-pills>li.active>a,.navigation-wrapper .nav-pills>li.active>a:focus,.navigation-wrapper .nav-pills>li.active>a:hover{
+	border-radius: 0;
+    background-color: transparent;
+    border-bottom: 5px solid #2effb5;
+}
+.navigation-wrapper li{
+	padding-left: 25px;
+}
+.navigation-wrapper li a{
+	color: #fff;
+	font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
 }

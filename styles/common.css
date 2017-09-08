@@ -12,7 +12,8 @@
 }
 body {
 	font-family: 'Montserrat';
-	font-size: 16px;
+	font-size: 14px;
+	color: #757575;
 }
 .bold {
 	font-family: 'Montserrat Bold';
@@ -42,7 +43,7 @@ button:focus {
 }
 .green-button, .green-button-inverted:hover {
 	background-color: #2effb5;
-	color: transparent;
+	color: #4a4a4a;
 	border: none;
 }
 .green-button-inverted, .green-button:hover {
@@ -53,4 +54,7 @@ button:focus {
 }
 h1 {
 	font-family: 'ExodusDemo';
+}
+h6 {
+	font-size: 20px;
 }

@@ -17,13 +17,13 @@ body {
 .bold {
 	font-family: 'Montserrat Bold';
 }
+.exodus {
+	font-family: 'ExodusDemo';
+}
 .component-heading{
 	font-family: Montserrat;
 	font-size: 32px;
 	font-weight: 600;
-}
-.exodus {
-	font-family: 'ExodusDemo';
 }
 button {
 	font-family: 'Montserrat Bold';
@@ -32,6 +32,9 @@ button {
 	border-radius: 100px;
 	text-transform: uppercase;
 	transition: 1s all;
+}
+.circular {
+	border-radius: 50%;
 }
 .green-button, .green-button-inverted:hover {
 	background-color: #2effb5;

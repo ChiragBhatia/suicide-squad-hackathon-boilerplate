@@ -1,6 +1,9 @@
 .panel-wrapper{
     background-color: white;
     min-height: 529px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .panel-wrapper .panel-heading{
     text-align: center;
@@ -38,6 +41,7 @@
 .panel-wrapper .panel-values-container{
     padding: 55px 0 54px 24px;
     border-bottom: solid 2px #dddddd;
+    width: 97%;
 }
 .panel-wrapper .description-text{
     padding: 52px 0 36px 0;

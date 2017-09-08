@@ -5,7 +5,7 @@
 			<img src="./images/group.svg">
 		</div>
 		<ul class="nav nav-pills col-sm-5">
-		  <li role="presentation" ng-repeat="item in headCtrl.navItems" ng-click="headCtrl.isActive(item);" ng-class="{'active':headCtrl.activeItem == item}"><a href="#">{{item}}</a></li>
+		  <li role="presentation" ng-repeat="item in headCtrl.navItems" ng-click="headCtrl.isActive(item);" ng-class="{'active':headCtrl.activeItem == item}"><a href="./about-us.html">{{item}}</a></li>
 		</ul>
 		<div class="sign-up-container col-sm-2">
 			<button class="green-button-inverted">Sign Up</button>
@@ -15,6 +15,6 @@
 	<div class="header-content center">
 		<h1>HI, This is Hackathon</h1>
 		<h5>We know you have got talent and we want you to show it! </h5>
-		<button class="green-button">Click Here!</button>
+		<button class="green-button" ng-click="headCtrl.clicked();">Click Here!</button>
 	</div>
 </div>

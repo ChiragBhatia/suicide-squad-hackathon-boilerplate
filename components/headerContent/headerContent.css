@@ -1,6 +1,6 @@
 .header-wrapper{
   width: 100%;
-  height: 425px;
+  height: 26.5625rem;
   background-color: #5d5c5e;
 }
 .inline{
@@ -9,31 +9,38 @@
 .center{
 	text-align: center;
 }
+.logo{
+	padding-left: 3.125rem;
+}
 .header-content{
 	color: white;
-	padding-top: 100px;
+	padding-top: 6.25rem;
 }
 .header-content h5{
-	margin-bottom: 37px;
+	margin-bottom: 2.3125rem;
 }
 .sign-up-container{
 	text-align: right;
+	padding-right: 2.5rem;
 }
 .navigation-wrapper{
-	padding-top: 45px;
+	padding-top: 2.8125rem;
 }
 .navigation-wrapper .nav-pills>li.active>a,.navigation-wrapper .nav-pills>li.active>a:focus,.navigation-wrapper .nav-pills>li.active>a:hover{
 	border-radius: 0;
     background-color: transparent;
-    border-bottom: 5px solid #2effb5;
+    border-bottom: 0.3125rem solid #2effb5;
 }
 .navigation-wrapper li{
-	padding-left: 25px;
+	padding-left: 1.5625rem;
 }
 .navigation-wrapper li a{
 	color: #fff;
 	font-family: Montserrat;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
+}
+.navigation-wrapper .nav>li>a:focus,.navigation-wrapper .nav>li>a:hover{
+	background-color: transparent;
 }
